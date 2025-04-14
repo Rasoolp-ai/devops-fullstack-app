@@ -3,8 +3,8 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = 'dockerhub-creds'
-        FRONTEND_IMAGE = 'your-dockerhub-username/react-frontend'
-        BACKEND_IMAGE = 'your-dockerhub-username/go-backend'
+        FRONTEND_IMAGE = 'rasoolp-ai/react-frontend'
+        BACKEND_IMAGE = 'rasoolp-ai/go-backend'
         FRONTEND_TAG = 'latest'
         BACKEND_TAG = 'latest'
         REACT_APP_SERVER_URL = 'http://backend-service:8080/employees'  // internal DNS in Kubernetes
